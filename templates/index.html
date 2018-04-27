@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>基于数据挖掘方法的图像管理系统</title>
+        <link rel="stylesheet" type="text/css" href="../static/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/public.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/index.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/display.css"/>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="../static/uploads.js"></script>
+    </head>
+
+<body>
+    <div style="text-align: center" class="header">
+        <span class="header-title">基于数据挖掘方法的图像管理系统</span>
+    </div>
+
+    <div class="content">
+        <div class="content-left" style="position: relative;top: -4px;">
+                <ul class="left-nav">
+                    <li><a href=" ">查看图像</a></li>
+                    <li><a href=" " class="testa">图像管理</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="fuceng">
+        <div class="fucengz">
+            <div class="sure clearfix">
+                <form action="/evaluate" method="post" enctype="multipart/form-data">
+                    <!--<label>请选择图像文件：</label>-->
+                    <input type="file" name="file" id="file_input" multiple/>
+                    <input type="submit" value="提交">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+body{
+	background-color: #eee;
+}
+/*header部分开始*/
+.header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #3f3f3f;
+}
+.header .header-title{
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+}
+
+/*提交按钮开始*/
+.header .Login{
+	display: inline-block;
+
+	float: right;
+	margin-right: 50px;
+	color: #fff;
+}
+.header .Login a:link{
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	font-weight:700 ;
+}
+.header .Login a:hover{
+	color: #fff;
+}
+/*提交按钮结束*/
+
+
+/*两个横向导航开始*/
+.header .nav{
+	margin-left: 250px;
+}
+.header .nav span a:link,.header .nav span a:visited{
+	display: inline-block;
+	text-align: center;
+	background-color: #3f3f3f;
+	width: 200px;
+	height: 50px;
+	color: #ccc;
+}
+.header .nav span a:hover{
+	background-color: #000000;
+	border-bottom: 4px #1aaa31 solid;
+	color: #fff;
+}
+/*两个横向导航结束*/
+
+/*header部分结束*/
+
+/*content部分开始*/
+.content{
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+.content-left,.content-right{float:left;}
+.content .content-left{
+	width: 250px;
+	height: 900px;
+	background: #3f3f3f;
+	position: fixed;
+    top: 50px;
+    left: 0;
+}
+/*左侧导航开始*/
+.left-nav{
+	position: absolute;
+	margin-top: 20px
+}
+.left-nav>li{
+	line-height: 50px;
+	width: 250px;
+	height: 50px;
+}
+.left-nav>li a:link,.left-nav>li a:visited{
+    display: block;
+	text-align: center;
+	background-color: #3f3f3f;
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ccc;
+}
+/*侧导航结束*/
+
+.content .content-right{
+	/*position: relative;*/
+	position: fixed;
+    top: 50px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*.content .content-right2{
+	position: relative;
+	top:24px!important;
+}*/
+/*content部分结束*/
+/*浮层*/
+
+.fuceng{
+	position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.fucengz{
+	position: fixed;
+	width: 220px;
+	height: 154px;
+	background: #fbfbfb;
+	left: 1150px;
+	top:50px;
+}
+
+
+.fucetrue{
+	width: 401px;
+	height: 33px;
+	background: #cccccc;
+	line-height: 33px;
+	font-size: 16px;
+	text-align: right;
+}
+
+.fucetrue span{
+	padding-left: 12px;
+}
+.sure{
+	padding-top: 50px;
+    padding-left: 45px;
+}

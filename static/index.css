@@ -1,0 +1,42 @@
+.line{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	color: #999;
+	border-bottom: 1px #999 solid;
+}
+.but1{
+	position: relative;
+	display: inline-block;
+	top: 20px;
+	left: 50px;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	background-color: #1aaa31;
+	border-radius: 5px; 
+}
+.content table{
+	margin: 40px 0 0 50px;
+	border: solid 1px #ccc;
+	max-height: 451px;
+	overflow: hidden;
+}
+.content table td{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: solid 1px #ccc;
+	font-size: 14px;
+	white-space :  nowrap;
+	max-width: 191px;
+	overflow: hidden;
+}
+.content .table1 td{
+	width: 140px;
+}
